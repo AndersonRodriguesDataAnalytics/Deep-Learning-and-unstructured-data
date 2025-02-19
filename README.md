@@ -1,28 +1,27 @@
-# Fase 5 - Perceptron de Múltiplas Camadas
+# Phase 5 - Multilayer Perceptron
 
-A natureza inspirou muitas inovações para os seres humanos. Assim como as aves inspiraram a criação dos aviões e a planta bardana levou à invenção do velcro, o funcionamento do cérebro humano serviu de base para as redes neurais artificiais (RNA). Essas redes, que fazem parte do aprendizado profundo (deep learning), são altamente escaláveis e poderosas, sendo amplamente utilizadas para resolver desafios complexos no campo do aprendizado de máquina. Entre suas aplicações estão a classificação de imagens, reconhecimento de fala, criação de imagens, sistemas de chat avançados e até mesmo aprendizado de jogos eletrônicos.
+Nature has inspired many innovations for human beings. Just as birds inspired the creation of airplanes and the burdock plant led to the invention of Velcro, the functioning of the human brain served as the basis for artificial neural networks (ANN). These networks, which are part of deep learning, are highly scalable and powerful, being widely used to solve complex challenges in the field of machine learning. Among their applications are image classification, speech recognition, image creation, advanced chat systems, and even learning electronic games.
 
-Nesta fase, você aprenderá como funcionam as redes neurais, com foco na arquitetura das redes de múltiplas camadas (Multilayer Perceptron - MLP). Além de entender a teoria por trás dessas redes, você irá implementá-las na prática utilizando Python e a biblioteca Keras.
+In this phase, you will learn how neural networks work, focusing on the architecture of multilayer networks (Multilayer Perceptron - MLP). In addition to understanding the theory behind these networks, you will implement them in practice using Python and the Keras library.
 
-## Redes Neurais e a Biblioteca Keras
+## Neural Networks and the Keras Library
 
-A biblioteca Keras é amplamente utilizada em aplicações reais, presentes em serviços como YouTube, Netflix, Uber, Yelp, Instacart, Zocdoc, Twitter e Square/Block. Segundo a pesquisa "State of Data Science and Machine Learning" de 2022, realizada pela Kaggle, o Keras teve uma taxa de adesão de 61% entre cientistas de dados. Isso evidencia a popularidade e a importância dessa ferramenta na área de aprendizado de máquina.
+The Keras library is widely used in real applications, present in services such as YouTube, Netflix, Uber, Yelp, Instacart, Zocdoc, Twitter, and Square/Block. According to the "State of Data Science and Machine Learning" survey of 2022 conducted by Kaggle, Keras had an adherence rate of 61% among data scientists. This shows the popularity and importance of this tool in the area of machine learning.
 
-Vamos partir para um hands-on, implementando um modelo de perceptron de múltiplas camadas!
+Let's go for a hands-on implementation of a multilayer perceptron model!
 
-## Características do Perceptron de Múltiplas Camadas
+## Characteristics of the Multilayer Perceptron
 
-- O modelo tem natureza binária (0 e 1), onde tanto os sinais de entrada quanto a saída são valores binários.
-- Atua como um classificador linear (binário).
-- Os pesos da rede neural são ajustáveis, podendo ser excitatórios ou inibitórios (valores positivos ou negativos), inspirados no funcionamento das sinapses cerebrais.
-- Utilizado em aprendizagem supervisionada, podendo classificar dados de entrada fornecidos.
-- A classificação das entradas separa duas categorias com uma linha reta.
+- The model has a binary nature (0 and 1), where both the input signals and the output are binary values.
+- Acts as a linear (binary) classifier.
+- The weights of the neural network are adjustable and can be excitatory or inhibitory (positive or negative values), inspired by the functioning of brain synapses.
+- Used in supervised learning and can classify supplied input data.
+- The classification of the inputs separates two categories with a straight line.
 
-## Inspiração do Código
+## Code Inspiration
 
-O código base para este projeto foi retirado do repositório da FIAP:
+The base code for this project was taken from the FIAP repository:
 
-[Multilayer Perceptron - Classificação de Sementes de Abóbora](https://github.com/FIAP/Pos_Tech_DTAT/blob/0cc151da81216e9050cdd3b6dec13adb15093b00/Aula%201%20-%20Perceptron%20de%20m%C3%BAltiplas%20camadas/Multilayer_Perceptron_Classificando_sementes_de_ab%C3%B3bora.ipynb)
+[Multilayer Perceptron - Pumpkin Seed Classification](https://github.com/FIAP/Pos_Tech_DTAT/blob/0cc151da81216e9050cdd3b6dec13adb15093b00/Aula%201%20-%20Perceptron%20de%20m%C3%BAltiplas%20camadas/Multilayer_Perceptron_Classificando_sementes_de_ab%C3%B3bora.ipynb)
 
-Vamos explorar o aprendizado profundo e desenvolver um modelo de perceptron de múltiplas camadas com Keras!
-
+Let's explore deep learning and develop a multilayer perceptron model with Keras.
