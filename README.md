@@ -1,4 +1,6 @@
-# Phase 5 - Multilayer Perceptron
+# Phase 5
+
+## Multilayer Perceptron
 
 Nature has inspired many innovations for human beings. Just as birds inspired the creation of airplanes and the burdock plant led to the invention of Velcro, the functioning of the human brain served as the basis for artificial neural networks (ANN). These networks, which are part of deep learning, are highly scalable and powerful, being widely used to solve complex challenges in the field of machine learning. Among their applications are image classification, speech recognition, image creation, advanced chat systems, and even learning electronic games.
 
